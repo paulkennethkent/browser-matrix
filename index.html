@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Browser Matrix</title>
+<!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<!-- Optional theme -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table.css" media="screen" title="no title" charset="utf-8">
+    <link charset="utf-8" href="/css/mystyles.css" media="screen" rel="stylesheet" title="no title">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="matrix">
+        <h1>Browser Matrix</h1>
+        <table class="table"  data-url="js/data.json">
+          <thead>
+            <tr>
+              <th>Browser</th>
+              <th>Internet Explorer</th>
+              <th>Google Chrome</th>
+              <th>Mozilla Firefox</th>
+              <th>Safari</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td class="danger"></td>
+              <td class="success">44</td>
+              <td class=""></td>
+              <td class=""></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="success">Version 9</td>
+              <td class="success">45</td>
+              <td class=""></td>
+              <td class=""></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="success">Version 10</td>
+              <td class=""></td>
+              <td clas=""></td>
+              <td class=""></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="success">Version 11</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="warning">Edge</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="key">
+        <h3>Key</h3>
+        <button class="btn btn-success" type="button">Tier 1</button>
+        <button class="btn btn-warning" type="button">Tier 2</button>
+      </div>
+
+    </div>
+
+  </body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table-locale-all.js"></script>
+</html>
