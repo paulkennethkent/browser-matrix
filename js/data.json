@@ -1,0 +1,20 @@
+[
+    {
+        "IE": "Version 8",
+        "GC": "44"
+    },
+    {
+        "IE": "Version 9",
+        "GC": "45"
+    },
+    {
+        "IE": "Version 10"
+    },
+    {
+        "IE": "Version 11"
+
+    },
+    {
+        "IE": "Edge"
+    }
+]

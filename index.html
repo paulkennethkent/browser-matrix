@@ -7,14 +7,14 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <!-- Optional theme -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table.css" media="screen" title="no title" charset="utf-8">
-    <link charset="utf-8" href="/css/mystyles.css" media="screen" rel="stylesheet" title="no title">
+    <link charset="utf-8" href="css/mystyles.css" media="screen" rel="stylesheet" title="no title">
+    <link charset="utf-8" href="css/bootstrap-table.css" media="screen" rel="stylesheet" title="no title">
   </head>
   <body>
     <div class="wrapper">
       <div class="matrix">
         <h1>Browser Matrix</h1>
-        <table class="table"  data-url="js/data.json">
+        <table class="table" data-url="js/data.json">
           <thead>
             <tr>
               <th>Browser</th>
@@ -64,6 +64,18 @@
         </table>
       </div>
 
+      <table class="table" data-cache="false" data-toggle="table" data-url="js/data.json" data-row-style="rowStyle">
+        <thead>
+          <tr>
+            <th>Browser</th>
+            <th data-field="IE">Internet Explorer</th>
+            <th data-field="GC">Google Chrome</th>
+            <th data-field="MF">Mozilla Firefox</th>
+            <th data-field="SF">Safari</th>
+          </tr>
+        </thead>
+      </table>
+
       <div class="key">
         <h3>Key</h3>
         <button class="btn btn-success" type="button">Tier 1</button>
@@ -73,6 +85,20 @@
     </div>
 
   </body>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table-locale-all.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap-table.js"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  <script>
+  function rowStyle(row, index) {
+    var classes = ['active', 'success', 'info', 'warning', 'danger'];
+
+    if (index = "Edg") {
+        return {
+            classes: classes[2]
+        };
+    }
+    return {};
+}
+
+  </script>
 </html>
