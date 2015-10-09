@@ -7,14 +7,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <!-- Optional theme -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table.css" media="screen" title="no title" charset="utf-8">
+    <link charset="utf-8" href="/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table.css" media="screen" rel="stylesheet" title="no title">
     <link charset="utf-8" href="/css/mystyles.css" media="screen" rel="stylesheet" title="no title">
   </head>
   <body>
     <div class="wrapper">
       <div class="matrix">
         <h1>Browser Matrix</h1>
-        <table class="table"  data-url="js/data.json">
+        <h3>Example 1</h3>
+        <table class="table">
           <thead>
             <tr>
               <th>Browser</th>
@@ -27,35 +28,61 @@
           <tbody>
             <tr>
               <td></td>
-              <td class="danger"></td>
-              <td class="success">44</td>
-              <td class=""></td>
-              <td class=""></td>
+              <td class="danger">Win XP / Version 8
+                <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
+              </td>
+              <td class="success"></td>
+              <td class="success">Mac OS 10.9 / Version 8.0
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td class="success">Version 9</td>
-              <td class="success">45</td>
-              <td class=""></td>
-              <td class=""></td>
+              <td class="info">Win 7 / Version 9
+                <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
+              </td>
+              <td class="success">Win 7 / Version 45
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
+              <td class="success">Win 7 / Version 41
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
+              <td class="success">Mac OS 10.10 / Version 9.0
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
             </tr>
             <tr>
               <td></td>
-              <td class="success">Version 10</td>
+              <td class="success">Win 7 / Version 10
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
               <td class=""></td>
               <td clas=""></td>
               <td class=""></td>
             </tr>
             <tr>
               <td></td>
-              <td class="success">Version 11</td>
+              <td class="success">Win 7 / Version 11
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
               <td></td>
-              <td class="warning">Edge</td>
+              <td class="success">Win 8.1 / Version 11
+                <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="warning">Win 10 / Edge
+                <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
+              </td>
               <td></td>
               <td></td>
               <td></td>
@@ -64,15 +91,80 @@
         </table>
       </div>
 
-      <div class="key">
-        <h3>Key</h3>
-        <button class="btn btn-success" type="button">Tier 1</button>
-        <button class="btn btn-warning" type="button">Tier 2</button>
-      </div>
+      <h3>Example 2</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Supported</th>
+            <th>Testing</th>
+            <th>Support Ending</th>
+            <th>Not Supported</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="success">Mac OS 10.9 / Safari Version 8
+              <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+            </td>
+            <td class="warning">Win 10 / Internet Explorer Edge
+              <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
+            </td>
+            <td class="info">Win 7 / Internet Explorer Version 9
+              <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
+            </td>
+            <td class="danger">Win XP / Internet Explorer Version 8
+              <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
+            </td>
+          </tr>
+          <tr>
+            <td class="success">Mac OS 10.9 / Safari Version 8
+              <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
 
+          <tr>
+            <td class="success">Windows 7 / Google Version 45
+              <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="success">Window 8.1 / Internet explorer 9
+              <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+
+    <div class="key">
+      <h3>Key</h3>
+      <button class="btn btn-success btn-block" type="button">Supported
+        <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+      </button>
+      <button class="btn btn-warning btn-block" type="button">Testing
+        <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
+      </button>
+      <button class="btn btn-info btn-block" type="button">Support ending
+        <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
+      </button>
+      <button class="btn btn-danger btn-block" type="button">Unsupported
+        <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
+      </button>
     </div>
 
-  </body>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table-locale-all.js"></script>
+  </div>
+
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.0/bootstrap-table-locale-all.js"></script>
 </html>

@@ -3,7 +3,7 @@
 }
 
 .key {
- width: 100px;
+ width: 160px;
  border: 1px solid grey;
  padding: 0px 10px 10px 10px;
 }
@@ -22,4 +22,12 @@
 
 .table>tbody>tr>td.warning {
  background-color: #EEA338;
+}
+
+.table>tbody>tr>td.info{
+ background-color: #5bc0de
+}
+
+.btn{
+  color : #333;
 }
