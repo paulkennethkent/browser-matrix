@@ -8,9 +8,6 @@
  padding: 0px 10px 10px 10px;
 }
 
-.matrix {
-
-}
 
 .table>tbody>tr>td.success {
   background-color: #58B358;
@@ -30,4 +27,8 @@
 
 .btn{
   color : #333;
+}
+
+.keytext {
+display: none;
 }
