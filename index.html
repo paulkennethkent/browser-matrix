@@ -96,16 +96,16 @@
       <div class="col-md-2">
         <div class="key">
           <h3>Key</h3>
-          <button class="btn btn-danger btn-block" type="button" id="">Unsupported
+          <button class="btn btn-danger btn-block" type="button" id="blockBtn">Unsupported
             <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
           </button>
-          <button class="btn btn-warning btn-block" type="button" id="">Support ending
+          <button class="btn btn-warning btn-block" type="button" id="warnBtn">Support ending
             <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
           </button>
-          <button class="btn btn-info btn-block" type="button">Testing
+          <button class="btn btn-info btn-block" type="button" id="testBtn">Testing
             <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
           </button>
-          <button class="btn btn-success btn-block" type="button">Supported
+          <button class="btn btn-success btn-block" type="button" id="sucessBtn">Supported
             <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
           </button>
         </div>
@@ -114,11 +114,27 @@
 </body>
 
 <div class="keytext">
-
-<h2>Unsupported</h2>
-<p>The operating system no longer supports the browser</p>
-
+  <h2>Unsupported</h2>
+  <p>We no longer support the version of this browser. </p>
 </div>
+
+<div class="keytext">
+  <h2>Support ending</h2>
+  <p>Support is ending for this browser as it's no longer tehcnically viable to support it</p>
+  <p>The browser may still work but we will not be able to fix bugs on this verion</p>
+</div>
+
+<div class="keytext">
+  <h2>Testing</h2>
+  <p>Any browser that are new to the market will have to be tested to ensure that all the platform functionality works.</p>
+</div>
+
+<div class="keytext">
+  <h2>Supported</h2>
+  <p>We have full tested this browser and we are comitted to fixing bug that are assiociate with this verion.</p>
+</div>
+
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="/js/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
