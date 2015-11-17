@@ -1,0 +1,51 @@
+[
+  {
+    "browser": "GC",
+    "ver": "Edge 2.0",
+    "os": "Win 7",
+    "class": "box-info",
+    "comment": "Edge 2.0 is fully supported",
+    "icon" : "cog"
+  },
+  {
+  "browser": "IE",
+  "ver": "Version 11",
+  "os": "Win 7",
+  "class": "box-success",
+  "comment": "Edge 2.0 is fully supported",
+  "icon" : "ok"
+},
+{
+  "browser": "GC",
+  "ver": "Version 46",
+  "os": "Win 7",
+  "class": "box-info",
+  "comment": "Edge 2.0 is fully supported",
+  "icon" : "cog"
+},
+{
+  "browser": "MF",
+  "ver": "Version 36",
+  "os": "Win 7",
+  "class": "box-success",
+  "comment": "Edge 2.0 is fully supported",
+  "icon" : "cog"
+},
+{
+  "browser": "SF",
+  "ver": "Version 7",
+  "os": "MAC OS 10.9",
+  "class": "box-info",
+  "comment": "Edge 2.0 is fully supported",
+  "icon" : "cog"
+},
+
+{
+  "browser": "GC",
+  "ver": "Edge",
+  "os": "Win 8.1",
+  "class": "box-warning",
+  "comment": "Edge 2.0 is fully supported",
+  "icon" : "warning-sign"
+}
+]
