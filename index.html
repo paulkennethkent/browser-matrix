@@ -13,87 +13,7 @@
 
 <body>
     <h1>Browser Matrix</h1>
-
-      <!--       <div class="col-md-9">
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Internet Explorer</th>
-        <th>Google Chrome</th>
-        <th>Mozilla Firefox</th>
-        <th>Safari</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="danger">Win XP / Version 8
-          <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
-        </td>
-        <td class="success">Mac OS 10.10 / Version 46
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td class="success">Win 7 / Version 45
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td class="success">Mac OS 10.10 / Version 9
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-      </tr>
-      <tr>
-        <td class="warning">Win 7 / Version 9
-          <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
-        </td>
-        <td class="success">Win 7 / Version 46
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td class="success">Win 8.1 / Version 45
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td class="success">Mac OS 10.11 / Version 9
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-      </tr>
-      <tr>
-        <td class="warning">Win 7 / Version 10
-          <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
-        </td>
-        <td class=""></td>
-        <td clas=""></td>
-        <td class="warning">Mac OS 10.12 / Version 9
-          <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
-        </td>
-      </tr>
-      <tr>
-        <td class="success">Win 7 / Version 11
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="success">Win 8.1 / Version 11
-          <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="info">Win 10 / Edge
-          <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
- -->
-
-
-
+    <p>This matrix details the status of our support for browsers that are currently in the market. The information provided below covers Kerboodle, Bond, Oxford Owl, Education Bookshelf and   </p>
       <div class="row">
         <div class="col-md-2 col-md-offset-1" id="iecol">
           <h4>Internet Explorer</h4>
@@ -113,17 +33,18 @@
         <div class="col-md-2">
           <div class="key">
             <h3>Key</h3>
-            <div class="box-danger">Danger
+            <div class="box-danger" title="">Unsupported
               <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
             </div>
-            <div class="box-warning">Support Ending
+            <div class="box-warning" title="">Support Ending
               <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span>
             </div>
-            <div class="box-info">Testing
-              <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
-            </div>
-            <div class="box-success">Supported
+
+            <div class="box-success" title="">Supported
               <span aria-hidden="true" class="glyphicon glyphicon-ok"></span>
+            </div>
+            <div class="box-info" title="">Testing
+              <span aria-hidden="true" class="glyphicon glyphicon-cog"></span>
             </div>
           </div>
         </div>
@@ -132,24 +53,43 @@
   </div>
 
       <div class="keytext">
-        <h2>Unsupported</h2>
-        <p>We no longer support the version of this browser. </p>
+        <h3>Unsupported <span aria-hidden="true" class="glyphicon glyphicon-remove"></span></h3>
+        <p>We no longer support this version of this browser. </p>
+        <div class="browser-news">
+          <h3>News</h3>
+          <div class="comment"></div>
+        </div>
       </div>
 
       <div class="keytext">
-        <h2>Support ending</h2>
-        <p>Support is ending for this browser as it's no longer tehcnically viable to support it</p>
-        <p>The browser may still work but we will not be able to fix bugs on this verion</p>
+        <h3>Support ending   <span aria-hidden="true" class="glyphicon glyphicon-warning-sign"></span></h3>
+        <p>Support is ending for this browser as it's no longer technically viable to support it.</p>
+        <p>The browser may still work but we will not be able to fix bugs on this version.</p>
+        <div class="browser-news">
+          <h3>News</h3>
+          <div class="comment"></div>
+        </div>
+
       </div>
 
       <div class="keytext">
-        <h2>Testing</h2>
-        <p>Any browser that are new to the market will have to be tested to ensure that all the platform functionality works.</p>
+        <h3>Testing <span aria-hidden="true" class="glyphicon glyphicon-cog"></span></h3>
+        <p>Any browsers that are new to the market require throughough testing to ensure that all the platform functionality works.</p>
+        <p>This browser could potentially work with the platform without an issue, but if you encounter any issues then <a href="mailto:edtechsupport@oup.com">please let us know</a>.</p>
+        <div class="browser-news">
+          <h3>News</h3>
+          <div class="comment"></div>
+        </div>
+
       </div>
 
       <div class="keytext">
-        <h2>Supported</h2>
-        <p>We have full tested this browser and we are comitted to fixing bug that are assiociate with this verion.</p>
+        <h3>Supported <span aria-hidden="true" class="glyphicon glyphicon-ok"></span></h3>
+        <p>We have fully tested and therefore support this browser. </p>
+        <div class="browser-news">
+          <h3>News</h3>
+          <div class="comment"></div>
+        </div>
       </div>
 
 
@@ -160,5 +100,4 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="/js/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-<script></script>
 </html>

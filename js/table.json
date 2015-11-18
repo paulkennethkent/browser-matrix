@@ -1,68 +1,95 @@
-[
-  {
+[{
     "browser": "IE",
     "ver": "Version 8.0",
-    "os": "Win Xp",
+    "os": "Win XP",
     "class": "box-danger",
-    "comment": "'Microsoft are not longer supporting Internet Explorer 8'",
-    "icon" : "remove"
+    "comment": "Microsoft are not longer supporting Internet Explorer 8",
+    "icon": "remove"
+  }, {
+    "browser": "IE",
+    "ver": "Version 8.0",
+    "os": "Win 7",
+    "class": "box-danger",
+    "comment": "Microsoft are not longer supporting Internet Explorer 8",
+    "icon": "remove"
   },
   {
     "browser": "GC",
     "ver": "Version 46",
     "os": "MAC OS 10.10",
-    "class" : "box-success",
-    "comment":"'This browser is full supported'",
-    "icon" : "ok"
+    "class": "box-success",
+    "comment": "This browser is full supported",
+    "icon": "ok"
 
-  },
-  {
-    "browser": "GC",
-    "ver": "Edge 2.0",
+  }, {
+    "browser": "MF",
+    "ver": "Version 42",
     "os": "Win 7",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015",
+    "icon": "ok"
+  }, {
+    "browser": "SF",
+    "ver": "Version 9",
+    "os": "MAC OS 10.10",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015",
+    "icon": "ok"
+  }, {
+    "browser": "SF",
+    "ver": "Version 9",
+    "os": "MAC OS 10.11",
     "class": "box-info",
-    "comment": "'Edge 2.0 is fully supported'",
-    "icon" : "cog"
-  },
-  {
-  "browser": "IE",
-  "ver": "Version 11",
-  "os": "Win 7",
-  "class": "box-success",
-  "comment": "'Edge 2.0 is fully supported'",
-  "icon" : "ok"
-},
-{
-  "browser": "GC",
-  "ver": "Version 46",
-  "os": "Win 7",
-  "class": "box-info",
-  "comment": "'Edge 2.0 is fully supported'",
-  "icon" : "cog"
-},
-{
-  "browser": "MF",
-  "ver": "Version 36",
-  "os": "Win 7",
-  "class": "box-success",
-  "comment": "'Edge 2.0 is fully supported'",
-  "icon" : "cog"
-},
-{
-  "browser": "SF",
-  "ver": "Version 7",
-  "os": "MAC OS 10.9",
-  "class": "box-info",
-  "comment": "'Edge 2.0 is fully supported'",
-  "icon" : "cog"
-},
-
-{
-  "browser": "GC",
-  "ver": "Edge",
-  "os": "Win 8.1",
-  "class": "box-warning",
-  "comment": "'Edge 2.0 is fully supported'",
-  "icon" : "warning-sign"
-}
+    "comment": "We are currently testing this browser and will update this page when its fully compatible",
+    "icon": "cog"
+  }, {
+    "browser": "IE",
+    "ver": "Version 9",
+    "os": "Win 7",
+    "class": "box-warning",
+    "comment": "Microsoft are withdrawing support on 12th January 2016 so we will stop supporting this browser from this date onwards. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a> ",
+    "icon": "warning-sign"
+  }, {
+    "browser": "GC",
+    "ver": "Version 46",
+    "os": "Win 7",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015",
+    "icon": "ok"
+  }, {
+    "browser": "GC",
+    "ver": "Version 46",
+    "os": "Windows 8.1",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015",
+    "icon": "ok"
+  }, {
+    "browser": "MF",
+    "ver": "Version 42",
+    "os": "Windows 8.1",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015",
+    "icon": "ok"
+  }, {
+    "browser": "IE",
+    "ver": "Version 10",
+    "os": "Win 7",
+    "class": "box-warning",
+    "comment": "Microsoft are withdrawing support on 12th January 2016, so we will stop supporting this browser from this date onwards. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a>",
+    "icon": "warning-sign"
+  }, {
+    "browser": "IE",
+    "ver": "Version 11",
+    "os": "Win 8.1",
+    "class": "box-success",
+    "comment": "Lasted tested on the 17th November 2015 ",
+    "icon": "ok"
+  }, {
+    "browser": "IE",
+    "ver": "Edge",
+    "os": "Win 10",
+    "class": "box-info",
+    "comment": "We are currently testing this browser and will update this page when its fully compatible",
+    "icon": "cog"
+  }
 ]
