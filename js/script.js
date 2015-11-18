@@ -26,13 +26,12 @@ $(document).ready(function() {
     function create(browser){
       // console.log(data.length);
         div = $("#"+browser);
-        div.append('<div class="'+ data[i].class +'">'+ data[i].os +" / "+ data[i].ver + ' <span aria-hidden="true" class="glyphicon glyphicon-'+data[i].icon+'"></span>' + '</div>');
+        div.append('<div class="'+ data[i].class +'" title="'+ data[i].comment +'">'+ data[i].os +" / "+ data[i].ver + ' <span aria-hidden="true" class="glyphicon glyphicon-'+data[i].icon+'"></span>' + '</div>');
         $(browser).append(div);
     }
   });
-});
 
-$(document).ready(function() {
+
 
   // KEY clicks
   // var $b = $('div');
@@ -46,7 +45,7 @@ $(document).ready(function() {
   // });
 
   // Table Hover
-  $('div').click(function() {
+  $('body').on('click','div',function() {
     var className = $(this).attr("class");
     console.log(className);
     switch (className) {

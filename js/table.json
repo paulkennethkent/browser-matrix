@@ -12,7 +12,7 @@
     "ver": "Version 46",
     "os": "MAC OS 10.10",
     "class" : "box-success",
-    "comment":"This browser is full supported",
+    "comment":"'This browser is full supported'",
     "icon" : "ok"
 
   },
@@ -21,7 +21,7 @@
     "ver": "Edge 2.0",
     "os": "Win 7",
     "class": "box-info",
-    "comment": "Edge 2.0 is fully supported",
+    "comment": "'Edge 2.0 is fully supported'",
     "icon" : "cog"
   },
   {
@@ -29,7 +29,7 @@
   "ver": "Version 11",
   "os": "Win 7",
   "class": "box-success",
-  "comment": "Edge 2.0 is fully supported",
+  "comment": "'Edge 2.0 is fully supported'",
   "icon" : "ok"
 },
 {
@@ -37,7 +37,7 @@
   "ver": "Version 46",
   "os": "Win 7",
   "class": "box-info",
-  "comment": "Edge 2.0 is fully supported",
+  "comment": "'Edge 2.0 is fully supported'",
   "icon" : "cog"
 },
 {
@@ -45,7 +45,7 @@
   "ver": "Version 36",
   "os": "Win 7",
   "class": "box-success",
-  "comment": "Edge 2.0 is fully supported",
+  "comment": "'Edge 2.0 is fully supported'",
   "icon" : "cog"
 },
 {
@@ -53,7 +53,7 @@
   "ver": "Version 7",
   "os": "MAC OS 10.9",
   "class": "box-info",
-  "comment": "Edge 2.0 is fully supported",
+  "comment": "'Edge 2.0 is fully supported'",
   "icon" : "cog"
 },
 
@@ -62,7 +62,7 @@
   "ver": "Edge",
   "os": "Win 8.1",
   "class": "box-warning",
-  "comment": "Edge 2.0 is fully supported",
+  "comment": "'Edge 2.0 is fully supported'",
   "icon" : "warning-sign"
 }
 ]
