@@ -24,43 +24,45 @@ $(document).ready(function() {
     }
   }
     function create(browser){
-      console.log(data.length);
+      // console.log(data.length);
         div = $("#"+browser);
-        div.append('<div class='+data[i].class+' title='+(escape(data[i].comment))+'>'+ data[i].os +" / "+ data[i].ver + ' <span aria-hidden="true" class="glyphicon glyphicon-'+data[i].icon+'"></span>' + '</div>');
+        div.append('<div class="'+ data[i].class +'">'+ data[i].os +" / "+ data[i].ver + ' <span aria-hidden="true" class="glyphicon glyphicon-'+data[i].icon+'"></span>' + '</div>');
         $(browser).append(div);
     }
   });
+});
 
+$(document).ready(function() {
 
-  //KEY clicks
-  var $b = $('button');
-  var $p = $('.keytext');
-
-  $b.click(function() {
-    var i = $b.index(this);
-    console.log(i);
-    $p.hide().eq(i).show("slow");
-    console.log($p);
-  });
+  // KEY clicks
+  // var $b = $('div');
+  // var $p = $('.keytext');
+  //
+  // $b.click(function() {
+  //   var i = $b.index(this);
+  //   console.log(i);
+  //   $p.hide().eq(i).show("slow");
+  //   console.log($p);
+  // });
 
   // Table Hover
-  $("td").hover(function() {
-    var className = $(this).attr('class');
+  $('div').click(function() {
+    var className = $(this).attr("class");
     console.log(className);
     switch (className) {
-      case "danger":
+      case "box-danger":
         $(".keytext").hide().eq(0).show(500);
         break;
 
-      case "warning":
+      case "box-warning":
         $(".keytext").hide().eq(1).show(500);
         break;
 
-      case "info":
+      case "box-info":
         $(".keytext").hide().eq(2).show(500);
         break;
 
-      case "success":
+      case "box-success":
         $(".keytext").hide().eq(3).show(500);
         break;
 

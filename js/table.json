@@ -1,5 +1,22 @@
 [
   {
+    "browser": "IE",
+    "ver": "Version 8.0",
+    "os": "Win Xp",
+    "class": "box-danger",
+    "comment": "'Microsoft are not longer supporting Internet Explorer 8'",
+    "icon" : "remove"
+  },
+  {
+    "browser": "GC",
+    "ver": "Version 46",
+    "os": "MAC OS 10.10",
+    "class" : "box-success",
+    "comment":"This browser is full supported",
+    "icon" : "ok"
+
+  },
+  {
     "browser": "GC",
     "ver": "Edge 2.0",
     "os": "Win 7",
