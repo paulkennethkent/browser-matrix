@@ -34,6 +34,7 @@ $(document).ready(function() {
 
 
   $('body').on('click', 'div', function() {
+
     var comment = $(this).attr("title");
     var className = $(this).attr("class");
     console.log(className);
@@ -42,7 +43,6 @@ $(document).ready(function() {
       case "box-danger":
         $(".keytext").hide().eq(0).show(500);
         appendComment(comment);
-
         break;
 
       case "box-warning":
@@ -66,9 +66,14 @@ $(document).ready(function() {
     }
 
     function appendComment(text) {
-      if (text) {
-        $(".comment").empty().append('<p>' + comment + '</p>');
-      } 
+      if(typeof text === 'undefined'){
+      $(".comment").empty();
+      }
+      else {
+        $(".comment").empty().append('<h3>Updates</h3>');
+        $(".comment").append('<p>' + comment + '</p>');
+      }
+
     }
   });
 });
