@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Get JSON
 
-  $.getJSON("js/table.json", function(data) {
+  $.getJSON("./js/table.json", function(data) {
     var tr;
     for (var i = 0; i < data.length; i++) {
       switch (data[i].browser) {

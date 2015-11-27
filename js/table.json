@@ -18,7 +18,7 @@
     "ver": "Version 46",
     "os": "MAC OS 10.10",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
 
   }, {
@@ -26,21 +26,21 @@
     "ver": "Version 42",
     "os": "Win 7",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "SF",
     "ver": "Version 9",
     "os": "MAC OS 10.10",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "SF",
     "ver": "Version 9",
     "os": "MAC OS 10.11",
     "class": "box-info",
-    "comment": "17th November 2015 - We are currently testing this browser.",
+    "comment": "17th November 2015 - We are currently testing this version of Safari.",
     "icon": "cog"
   }, {
     "browser": "IE",
@@ -54,21 +54,21 @@
     "ver": "Version 46",
     "os": "Win 7",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "GC",
     "ver": "Version 46",
     "os": "Windows 8.1",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "MF",
     "ver": "Version 42",
     "os": "Windows 8.1",
     "class": "box-success",
-    "comment": "17th November 2015 -  Last tested on the November 2015.",
+    "comment": "17th November 2015 -  Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "IE",
@@ -82,14 +82,14 @@
     "ver": "Version 11",
     "os": "Win 8.1",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested on the November 2015.",
+    "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   }, {
     "browser": "IE",
     "ver": "Edge",
     "os": "Win 10",
     "class": "box-info",
-    "comment": "17th November 2015 - We are currently testing this version of the browser",
+    "comment": "17th November 2015 - We are currently testing this version of the Edge.",
     "icon": "cog"
   }
 ]
