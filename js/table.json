@@ -49,21 +49,32 @@
     "class": "box-warning",
     "comment": "17th November 2015 - Microsoft are withdrawing support on the 12th January 2016. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a> ",
     "icon": "warning-sign"
-  }, {
+  },
+   {
     "browser": "GC",
     "ver": "Version 46",
     "os": "Win 7",
     "class": "box-success",
     "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
-  }, {
-    "browser": "GC",
-    "ver": "Version 46",
-    "os": "Windows 8.1",
-    "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
-    "icon": "ok"
-  }, {
+  },
+  {
+   "browser": "GC",
+   "ver": "Version 46",
+   "os": "Windows 8.1",
+   "class": "box-success",
+   "comment": "17th November 2015 - Last tested in November 2015.",
+   "icon": "ok"
+ },
+ {
+   "browser": "GC",
+   "ver": "Version 46",
+   "os": "Windows 10",
+   "class": "box-info",
+   "comment": "16th December 2015 - We are currently testing this version of the browser.",
+   "icon": "cog"
+ },
+  {
     "browser": "MF",
     "ver": "Version 42",
     "os": "Windows 8.1",
@@ -77,7 +88,16 @@
     "class": "box-warning",
     "comment": "17th November 2015 - Microsoft are withdrawing support on the 12th January 2016.  <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a>",
     "icon": "warning-sign"
-  }, {
+  },
+  {
+    "browser": "IE",
+    "ver": "Version 11",
+    "os": "Win 7",
+    "class": "box-success",
+    "comment": "17th November 2015 - Last tested in November 2015.",
+    "icon": "ok"
+  },
+   {
     "browser": "IE",
     "ver": "Version 11",
     "os": "Win 8.1",
