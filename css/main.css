@@ -48,10 +48,10 @@ h1 {
   margin: 0; }
 
 html, body {
-  height: 95%; }
+  height: 100%; }
 
 .page-wrap {
-  min-height: 99%;
+  min-height: 90%;
   /* equal to footer height */
   margin-bottom: -50px;
   padding: 20px; }
@@ -66,5 +66,5 @@ html, body {
   text-align: center; }
 
 .site-footer, .page-wrap:after {
-  height: 50px;
+  height: 55px;
   padding: 5px; }

@@ -1,6 +1,7 @@
 @import 'variable';
 @import 'typography';
 
+
 .site-header {
       border-bottom: 1px solid rgb(204, 204, 204);
       width: 100%;
@@ -70,10 +71,11 @@ display: none;
   margin: 0;
 }
 html, body {
-  height: 95%;
+  height: 100%;
+
 }
 .page-wrap {
-  min-height: 99%;
+  min-height:90%;
   /* equal to footer height */
   margin-bottom: -50px;
   padding: 20px;
@@ -90,7 +92,7 @@ html, body {
 }
 
 .site-footer, .page-wrap:after {
-  height: 50px;
+  height: 55px;
   padding: 5px;
 }
 
