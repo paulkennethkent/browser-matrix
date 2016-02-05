@@ -46,9 +46,9 @@
     "browser": "IE",
     "ver": "Version 9",
     "os": "Win 7",
-    "class": "box-warning",
-    "comment": "17th November 2015 - Microsoft are withdrawing support on the 12th January 2016. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a> ",
-    "icon": "warning-sign"
+    "class": "box-danger",
+    "comment": "5th February 2016 - Microsoft have withdrawn support on the 12th January 2016. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a> ",
+    "icon": "remove"
   },
    {
     "browser": "GC",
@@ -85,9 +85,9 @@
     "browser": "IE",
     "ver": "Version 10",
     "os": "Win 7",
-    "class": "box-warning",
-    "comment": "17th November 2015 - Microsoft are withdrawing support on the 12th January 2016.  <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a>",
-    "icon": "warning-sign"
+    "class": "box-danger",
+    "comment": "5th February 2016 - Microsoft have withdrawn support on the 12th January 2016.  <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a>",
+    "icon": "remove"
   },
   {
     "browser": "IE",
@@ -108,8 +108,8 @@
     "browser": "IE",
     "ver": "Edge",
     "os": "Win 10",
-    "class": "box-info",
-    "comment": "17th November 2015 - We are currently testing this version of the browser.",
-    "icon": "cog"
+    "class": "box-success",
+    "comment": "5th February 2016 - Lasted test in January 2016",
+    "icon": "ok"
   }
 ]

@@ -1,5 +1,18 @@
 @import 'variable';
+@import 'typography';
 
+.site-header {
+      border-bottom: 1px solid rgb(204, 204, 204);
+      width: 100%;
+      padding: 7px;
+      h1 {
+      display: inline-block;
+      }
+      img {
+        float: right;
+        display: inline;
+      }
+}
 
 .key {
  width: 160px;
@@ -57,10 +70,10 @@ display: none;
   margin: 0;
 }
 html, body {
-  height: 100%;
+  height: 95%;
 }
 .page-wrap {
-  min-height: 100%;
+  min-height: 99%;
   /* equal to footer height */
   margin-bottom: -50px;
   padding: 20px;
@@ -69,12 +82,16 @@ html, body {
   content: "";
   display: block;
 }
+
+.site-footer {
+    background: #F5F5F5;
+    box-shadow: 2px 2px 4px 5px #ccc;
+    text-align: center;
+}
+
 .site-footer, .page-wrap:after {
   height: 50px;
   padding: 5px;
-}
-.site-footer {
-  background: grey;
 }
 
 //end footer
