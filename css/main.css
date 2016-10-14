@@ -9,7 +9,8 @@ h1 {
     display: inline-block; }
   .site-header img {
     float: right;
-    display: inline; }
+    display: inline;
+    margin: 5px; }
 
 .key {
   width: 160px;
@@ -28,6 +29,12 @@ h1 {
   .box:hover, .box-success:hover, .box-danger:hover, .box-warning:hover, .box-info:hover {
     color: white;
     cursor: pointer; }
+
+.active {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.24);
+  transform-style: preserve-3d;
+  width: 105%;
+  margin-left: -5px; }
 
 .box-success {
   background-color: #5cb85c; }

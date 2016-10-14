@@ -71,7 +71,7 @@
   {
    "browser": "GC",
    "ver": "Version 46",
-   "os": "Windows 8.1",
+   "os": "Win 8.1",
    "class": "box-success",
    "comment": "17th November 2015 - Last tested in November 2015.",
    "icon": "ok"
@@ -79,7 +79,7 @@
  {
   "browser": "GC",
   "ver": "Version 46",
-  "os": "Windows 10",
+  "os": "Win 10",
   "class": "box-success",
   "comment": "17th November 2015 - Last tested in November 2015.",
   "icon": "ok"
@@ -87,7 +87,7 @@
   {
     "browser": "MF",
     "ver": "Version 42",
-    "os": "Windows 8.1",
+    "os": "Win 8.1",
     "class": "box-success",
     "comment": "17th November 2015 -  Last tested in November 2015.",
     "icon": "ok"
@@ -95,7 +95,7 @@
   {
     "browser": "MF",
     "ver": "Version 45.0.1",
-    "os": "Windows 7",
+    "os": "Win 7",
     "class": "box-success",
     "comment": "11th October 2016 -  Last tested in July 2016.",
     "icon": "ok"
