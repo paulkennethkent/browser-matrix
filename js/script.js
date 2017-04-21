@@ -27,7 +27,7 @@ $(document).ready(function() {
     function create(browser) {
       // console.log(data.length);
       div = $("#" + browser);
-      div.append('<div id="box" class="' + data[i].class + '" title="' + data[i].comment + '">' + data[i].os + " / " + data[i].ver + ' <span aria-hidden="true" class="glyphicon glyphicon-' + data[i].icon + '"></span>' + '</div>');
+      div.append('<div id="box" class="' + data[i].class + '" title="' + data[i].comment + '">' + data[i].os + " / " + data[i].ver  + '</div>');
       $(browser).append(div);
     }
   });
