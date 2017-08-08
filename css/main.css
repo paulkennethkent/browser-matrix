@@ -27,7 +27,6 @@ h1 {
   vertical-align: top;
   box-sizing: border-box; }
   .box:hover, .box-success:hover, .box-danger:hover, .box-warning:hover, .box-info:hover {
-    color: white;
     cursor: pointer; }
 
 .active {
@@ -41,6 +40,10 @@ h1 {
 
 .box-danger {
   background-color: #d9534f; }
+  .box-danger a {
+    text-decoration: none;
+    color: #333;
+    pointer-events: none; }
 
 .box-warning {
   background-color: #f0ad4e; }

@@ -1,6 +1,7 @@
 [{
     "browser": "IE",
     "ver": "Version 8.0",
+    "link" : "" ,
     "os": "Windows XP",
     "class": "box-danger",
     "comment": "Microsoft are no longer supporting Internet Explorer 8.",
@@ -8,38 +9,26 @@
   }, {
     "browser": "IE",
     "ver": "Version 8.0",
+    "link" : "" ,
     "os": "Windows 7",
     "class": "box-danger",
     "comment": "Microsoft are no longer supporting Internet Explorer 8.",
     "icon": "remove"
   },
   {
-    "browser": "GC",
-    "ver": "Version 56+",
-    "os": "MAC OS 10.10",
-    "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
-    "icon": "ok"
-
-  }, {
-    "browser": "MF",
-    "ver": "Version 50+",
-    "os": "Windows 7",
-    "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
-    "icon": "ok"
-  }, {
     "browser": "SF",
-    "ver": "Version 9",
-    "os": "MAC OS 10.11",
+    "ver": "Current stable version",
+    "link" : "https://www.apple.com/safari/" ,
+    "os": "MAC OS Safari",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
+    "comment": "11th October 2016 - Last tested July 2016",
     "icon": "ok"
   },
-  {
+    {
     "browser": "SF",
-    "ver": "Version 10",
-    "os": "MAC OS 10.12",
+    "ver": "Current stable version",
+    "link" : "https://www.apple.com/safari/" ,
+    "os": "IOS",
     "class": "box-success",
     "comment": "11th October 2016 - Last tested July 2016",
     "icon": "ok"
@@ -47,6 +36,7 @@
    {
     "browser": "IE",
     "ver": "Version 9",
+    "link" : "" ,
     "os": "Windows 7",
     "class": "box-danger",
     "comment": "5th February 2016 - Microsoft have withdrawn support on the 12th January 2016. <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a> ",
@@ -54,55 +44,44 @@
   },
    {
     "browser": "GC",
-    "ver": "Version 56+",
-    "os": "Windows 7",
+    "ver": "Current stable version",
+    "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
+    "os": "Windows",
+    "class": "box-success",
+    "comment": "17th November 2015 - Last tested in November 2015.",
+    "icon": "ok"
+  },
+     {
+    "browser": "GC",
+    "ver": "Current stable version",
+    "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
+    "os": "IOS",
+    "class": "box-success",
+    "comment": "17th November 2015 - Last tested in November 2015.",
+    "icon": "ok"
+  },
+   {
+    "browser": "GC",
+    "ver": "Current stable version",
+    "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
+    "os": "Android",
     "class": "box-success",
     "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   },
   {
-   "browser": "GC",
-   "ver": "Version 56+",
-   "os": "Windows 7",
-   "class": "box-success",
-   "comment": "17th November 2015 - Last tested in November 2015.",
-   "icon": "ok"
- },
-  {
-   "browser": "GC",
-   "ver": "Version 56+",
-   "os": "Windows 8.1",
-   "class": "box-success",
-   "comment": "17th November 2015 - Last tested in November 2015.",
-   "icon": "ok"
- },
- {
-  "browser": "GC",
-  "ver": "Version 56+",
-  "os": "Windows 10",
-  "class": "box-success",
-  "comment": "17th November 2015 - Last tested in November 2015.",
-  "icon": "ok"
-},
-  {
     "browser": "MF",
-    "ver": "Version 50+",
-    "os": "Windows 8.1",
+    "ver": "Current stable version",
+    "link" : "https://www.mozilla.org/en-GB/firefox/new/" ,
+    "os": "Windows",
     "class": "box-success",
     "comment": "17th November 2015 -  Last tested in November 2015.",
     "icon": "ok"
   },
   {
-    "browser": "MF",
-    "ver": "Version 50+",
-    "os": "Windows 7",
-    "class": "box-success",
-    "comment": "11th October 2016 -  Last tested in July 2016.",
-    "icon": "ok"
-  },
-  {
     "browser": "IE",
     "ver": "Version 10",
+    "link" : "" ,
     "os": "Windows 7",
     "class": "box-danger",
     "comment": "5th February 2016 - Microsoft have withdrawn support on the 12th January 2016.  <a href='https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer' target='_blank'>https://support.microsoft.com/en-gb/gp/microsoft-internet-explorer</a>",
@@ -111,29 +90,16 @@
   {
     "browser": "IE",
     "ver": "Version 11",
+    "link" : "https://www.microsoft.com/en-gb/download/internet-explorer-11-for-windows-7-details.aspx" ,
     "os": "Windows 7",
     "class": "box-success",
     "comment": "17th November 2015 - Last tested in November 2015.",
     "icon": "ok"
   },
-   {
-    "browser": "IE",
-    "ver": "Version 11",
-    "os": "Windows 8.1",
-    "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
-    "icon": "ok"
-  }, {
-    "browser": "IE",
-    "ver": "Edge 13",
-    "os": "Windows 10",
-    "class": "box-success",
-    "comment": "5th February 2016 - Lasted test in January 2016",
-    "icon": "ok"
-  },
   {
     "browser": "IE",
-    "ver": "Edge 14",
+    "ver": "Edge",
+    "link" : "https://www.microsoft.com/en-gb/windows/microsoft-edge" ,
     "os": "Windows 10",
     "class": "box-success",
     "comment": "5th February 2016 - Lasted test in January 2016",
