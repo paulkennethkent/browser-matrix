@@ -70,6 +70,12 @@ html, body {
   content: "";
   display: block; }
 
+.page-wrap > p {
+  margin: 1em; }
+
+.disclaimer > p {
+  margin: 1em; }
+
 .site-footer {
   background: #F5F5F5;
   box-shadow: 2px 2px 4px 5px #ccc;
