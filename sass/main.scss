@@ -1,11 +1,14 @@
 @import 'variable';
 @import 'typography';
 
-
+a {
+  color:#0000EE;
+}
 .site-header {
       border-bottom: 1px solid rgb(204, 204, 204);
       width: 100%;
       padding: 7px;
+      overflow: hidden;
       h1 {
       display: inline-block;
       }
@@ -13,6 +16,7 @@
         float: right;
         display: inline;
         margin: 5px;
+        overflow: hidden;
       }
 }
 
@@ -27,15 +31,20 @@
 
 .box{
   width: 100%;
-  min-height:37px;
+  min-height:50px;
   padding:8px;
   line-height: 1.42857143;
   border-top: 1px solid #ddd;
   vertical-align: top;
   box-sizing: border-box;
 
+
   &:hover {
     cursor: pointer;
+  }
+  .glyphicon {
+    float:right;
+
   }
 }
 
@@ -96,11 +105,9 @@ html, body {
   display: block;
 }
 
-.page-wrap > p {
-   margin: 1em; 
-}
 
-.disclaimer > p {
+
+ p {
    margin: 1em; 
 }
 

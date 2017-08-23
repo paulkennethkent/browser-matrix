@@ -27,19 +27,19 @@ $(document).ready(function() {
     function create(browser) {
       // console.log(data.length);
       div = $("#" + browser);
-      div.append('<div id="box" class="' + data[i].class + '" title="' + data[i].comment + '">' + data[i].os + " / " + ' <a href=" ' + data[i].link + '" class="link"> ' + data[i].ver + ' </a> </div>');
+      div.append('<div id="box" class="' + data[i].class + '" title="' + data[i].comment + '">' + data[i].os + " / " + ' <a href=" ' + data[i].link + '" id="link" target="_blank" data-link="'+ data[i].link + '"> ' + data[i].ver + ' </a> <span aria-hidden="true" class="glyphicon glyphicon-'+ data[i].icon +'"></div>');
       $(browser).append(div);
     }
   });
 
 
-  $('body').on('click', 'div', function(e) {
-
+  $('body').on('click', 'div#box', function(e) {
     var comment = $(this).attr("title");
-    var className = $(this).attr("class");
-    var link = $(this).attr("class");
+    var className = $(this ).attr("class");
+    var link =   $(this).daa("[data-link]");
     var os = $(e.target).text();
     var browser = $(e.target).parent().find('h4').html();
+    console.log(link)
     // console.log("I am the text variable" + os);
     // console.log("I am the text variable" + browser);
     // console.log(className);

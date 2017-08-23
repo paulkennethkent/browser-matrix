@@ -17,20 +17,20 @@
   },
   {
     "browser": "SF",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.apple.com/safari/" ,
     "os": "MAC OS Safari",
     "class": "box-success",
-    "comment": "11th October 2016 - Last tested July 2016",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
     {
     "browser": "SF",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.apple.com/safari/" ,
     "os": "IOS",
     "class": "box-success",
-    "comment": "11th October 2016 - Last tested July 2016",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
    {
@@ -44,38 +44,38 @@
   },
    {
     "browser": "GC",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
     "os": "Windows",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
      {
     "browser": "GC",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
     "os": "IOS",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
    {
     "browser": "GC",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.google.com/chrome/browser/desktop/index.html" ,
     "os": "Android",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
   {
     "browser": "MF",
-    "ver": "Current stable version",
+    "ver": "Current version",
     "link" : "https://www.mozilla.org/en-GB/firefox/new/" ,
     "os": "Windows",
     "class": "box-success",
-    "comment": "17th November 2015 -  Last tested in November 2015.",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
   {
@@ -93,7 +93,7 @@
     "link" : "https://www.microsoft.com/en-gb/download/internet-explorer-11-for-windows-7-details.aspx" ,
     "os": "Windows 7",
     "class": "box-success",
-    "comment": "17th November 2015 - Last tested in November 2015.",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   },
   {
@@ -102,7 +102,7 @@
     "link" : "https://www.microsoft.com/en-gb/windows/microsoft-edge" ,
     "os": "Windows 10",
     "class": "box-success",
-    "comment": "5th February 2016 - Lasted test in January 2016",
+    "comment": "11th July 2017 - Last tested July 2017",
     "icon": "ok"
   }
 ]
