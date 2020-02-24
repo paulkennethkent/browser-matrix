@@ -1,19 +1,18 @@
-#Setup 
-This REPO uses GULP to compile SASS and to run the website locally. 
+# Setup 
 
-Make sure gulp installed globally on your machine by running 
+Make sure gulp is installed on your machine by running 
 
-npm install gulp -g 
+`npm install gulp`
 
-In the route of the folder the run gulp in your terminal to launch the website. 
+Run `gulp` to start the webserver. 
 
-#Browser Matrix
-This grid is designed to show the user which browsers you platform supports.
+# Browser Matrix
+This grid is designed to show the user which browsers is supported by platform.
 
-##JSON
+## JSON
 The data to build this page is stored in JSON and is loaded when the page renders. Here is an empty JSON object -
 
-###Empty object
+### Empty object
 
 `  {
     "browser": "",
@@ -24,7 +23,7 @@ The data to build this page is stored in JSON and is loaded when the page render
     "icon" : ""
   } `
 
-###Data   
+### Data   
 
   "browser" = Internet Browser - IE, GC, MF, SF
   "ver" = Version - Free text
@@ -33,7 +32,7 @@ The data to build this page is stored in JSON and is loaded when the page render
   "comment" = Comment - Free Text
   "icon" = Icon to be displayed - remove, warning-sign, cog, ok
 
-###Example
+### Example
 
 `{
 "browser": "IE",
